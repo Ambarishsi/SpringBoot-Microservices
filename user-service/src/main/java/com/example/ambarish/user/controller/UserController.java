@@ -26,7 +26,7 @@ public class UserController {
 	
 	@PostMapping("/")
 	public User saveUser(@RequestBody User user) {
-		log.info("inside saveUser method of user controller");
+		log.info("inside saveUser method of user controller ");
 		return userService.saveUser(user);
 	}
 	
